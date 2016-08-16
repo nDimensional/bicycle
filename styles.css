@@ -1,10 +1,16 @@
 html {
     padding: 16px;
     font-family: 'Cutive', serif;
-    line-height: 1.5em;
+    line-height: 2em;
+    background: #eee;
 }
 
 body {
-    margin: 32px auto;
+    margin: auto;
     max-width: 800px;
+}
+
+img {
+    margin: 0 10%;
+    width: 80%;
 }
