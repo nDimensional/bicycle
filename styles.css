@@ -11,6 +11,6 @@ body {
 }
 
 img {
-    margin: 64px 25% 0 25%;
-    width: 50%;
+  display: block;
+  margin: 64px auto 0 auto;
 }
