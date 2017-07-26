@@ -1,8 +1,9 @@
 html {
-    padding: 16px;
-    font-family: 'Cutive', serif;
-    line-height: 2em;
-    background: #eee;
+    padding: 10% 24px;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    line-height: 1.5em;
+    font-size: 18px;
+    background: #fffff8;
 }
 
 body {
@@ -10,7 +11,13 @@ body {
     max-width: 800px;
 }
 
+div {
+    margin: 48px 0;
+}
+
 img {
-  display: block;
-  margin: 64px auto 0 auto;
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 48px auto;
 }
