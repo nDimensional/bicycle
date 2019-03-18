@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mental Bicycles</title>
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-    <div>
-        <p>
-            "What a computer is to me is it’s the most remarkable tool that we’ve ever come up with, and it’s the equivalent of a bicycle for our minds."
-            <br>
-            - Steve Jobs
-        </p>
-        <p>
-            "I've always imagined the ideal interface as somewhere between a bicycle and a theremin."
-            <br>
-            - Ted Nelson
-        </p>
-    </div>
-    <br />
-    <img src="bicycle.png">
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mental Bicycle</title>
+		<link rel="icon" href="favicon.png" type="image/png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<style>
+		@font-face {
+			font-family: "ET Book";
+			font-weight: normal;
+			font-style: normal;
+			src: url("et-book-roman-line-figures.woff") format("woff");
+		}
+
+		html {
+			font-family: "ET Book";
+			background-color: #fffff8;
+			color: #111;
+		}
+
+		body {
+			max-width: 640px;
+			margin: auto;
+			padding: 2em 1em;
+		}
+
+		img {
+			margin: 4em auto 0 auto;
+			display: block;
+			max-width: 100%;
+			width: 480px;
+		}
+
+		blockquote {
+			display: flex;
+			flex-direction: column;
+		}
+
+		cite {
+			align-self: end;
+		}
+	</style>
+	<body>
+		<blockquote>
+			<p>
+				"What a computer is to me is it’s the most remarkable tool that we’ve
+				ever come up with, and it’s the equivalent of a bicycle for our minds."
+			</p>
+			<cite>- Steve Jobs</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>
+				"I've always imagined the ideal interface as somewhere between a bicycle
+				and a theremin."
+			</p>
+			<cite>- Ted Nelson</cite>
+		</blockquote>
+
+		<figure>
+			<img src="bicycle.png" />
+		</figure>
+	</body>
 </html>
